@@ -1,0 +1,270 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html <%--xmlns="http://www.w3.org/1999/xhtml"--%>>
+<head runat="server">
+    <title>SIS</title>
+    <link href="master.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css.map" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css.map" />
+    <link rel="stylesheet" href="css/bootstrap-theme.css.map" />
+    <link rel="stylesheet" href="css/bootstrap.min.css.map" />
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link href="master.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css.map" />
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css.map" />
+        <link rel="stylesheet" href="css/bootstrap-theme.css.map" />
+        <link rel="stylesheet" href="css/bootstrap.min.css.map" />
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Global stylesheets -->
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/core.min.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/components.min.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/colors.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Load jQuery -->
+    <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class=" pace-done">
+    <form id="form1" runat="server">
+        <div class="pace  pace-inactive">
+            <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+                <div class="pace-progress-inner"></div>
+            </div>
+            <div class="pace-activity"></div>
+        </div>
+        <div class="navbar navbar-default header-highlight">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="color: #ffffff;">SCHOOL INFORMATION SYSTEM
+                   <%-- <img src="Images/logo-1t.png" alt="" />--%></a>
+                <ul class="nav navbar-nav visible-xs-block">
+                    <li><a data-toggle="collapse" <%--data-target="#navbar-mobile"--%>><i <%--class="icon-tree5"--%>></i></a></li>
+                    <li><a <%--class="sidebar-mobile-main-toggle"--%>><i class="icon-paragraph-justify3"></i></a></li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse" <%--id="navbar-mobile"--%>>
+                <ul class="nav navbar-nav">
+                    <li><a class="sidebar-control sidebar-main-toggle hidden-xs"><i class="icon-paragraph-justify3"></i></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-git-compare"></i>
+                            <span class="visible-xs-inline-block position-right">Updates</span>
+                            <%--<span class="badge bg-warning-400">!</span>--%>
+                        </a>
+                        <div class="dropdown-menu dropdown-content">
+                            <div class="dropdown-content-heading">Updates</div>
+                            <ul class="media-list dropdown-content-body width-350">
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="#" class="btn border-success text-success btn-flat btn-rounded btn-icon btn-sm"><i class="glyphicon glyphicon-star"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        <a href="#">Circular</a><br>
+                                        <a href="#">-</a>
+                                        <div class="media-annotation">2017-Jul-05</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <p class="navbar-text"><span class="label bg-info">Academic Year: ( 2016 - 2017 )</span></p>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-bubbles4"></i>
+                            <span class="visible-xs-inline-block position-right">Notifications</span>
+                            <span class="badge bg-warning-400" id="envelope">0</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-content width-350">
+                            <div class="dropdown-content-heading">Notifications </div>
+                            <ul class="media-list dropdown-content-body">
+                            </ul>
+                            <div class="dropdown-content-footer">
+                                <a href="#" data-popup="tooltip" title="" data-original-title="All messages"><i class="icon-menu display-block"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown dropdown-user">
+                        <a class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="Images/26052017055211.png" alt="" />
+                            <span>RAJGAURI KHEMNAR</span>
+                            <i class="caret"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="icon-user"></i>Profile</a></li>
+                            <li><a href="#"><i class="icon-lock2"></i>Change Password</a></li>
+                            <li><a href="login.aspx" onclick="signOut();"><i class="icon-switch2"></i>Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="page-container" style="min-height: 519px">
+            <div class="page-content">
+                <div class="sidebar sidebar-main">
+                    <div class="sidebar-content">
+                        <div class="sidebar-user">
+                            <div class="category-content">
+                                <div class="media">
+                                    <a href="#" class="media-left">
+                                        <img src="Images/01062017015509.jpg" class="img-circle img-sm" alt="" /></a>
+                                    <div class="media-body">
+                                        <span class="media-heading text-semibold">TABS </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-category sidebar-category-visible">
+                            <div class="category-content no-padding">
+                                <ul class="navigation navigation-main navigation-accordion">
+                                    <li class="">
+                                        <a href="dashboard.aspx" <%--class="has-ul active"--%>><i class="icon-home4"></i><span>Dashboard</span></a>
+                                        <%--<ul data-index="0" style="display: none;" class="hidden-ul">
+                                            <li><a href="#">Dashboard</a></li>
+                                        </ul>--%>
+                                    </li>
+                                    <li class="">
+                                        <a href="#" class="has-ul active"><i class="icon-users4"></i><span>Academic</span></a>
+                                        <ul class="hidden-ul" style="display: none;">
+                                            <li>
+                                                <a href="lessonplan.aspx" <%--class="has-ul"--%>>Lesson Plan</a>
+                                                <%--<ul class="hidden-ul">
+                                                    <li><a href="#">Lesson Plan</a></li>
+                                                </ul>--%>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="has-ul">Exams</a>
+                                                <ul class="hidden-ul">
+                                                    <%--<li><a href="#" class="has-ul">Online Exam</a>
+                                                        <ul class="hidden-ul">
+                                                            <li><a href="#">Online Exam</a></li>
+                                                            <li><a href="#">View Exam Results</a></li>
+                                                        </ul>
+                                                    </li>--%>
+                                                    <li><a href="examlist.aspx">Exam List</a></li>
+                                                    <li><a href="markslist.aspx">Mark List</a></li>
+                                                    <li><a href="reportcard.aspx">Report Card</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#" class="has-ul">Exam Hall</a>
+                                                <ul class="hidden-ul">
+                                                    <li><a href="seating.aspx">Hall Arrangement Details </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <%--<li>
+                                        <a href="#" class="has-ul"><i class="icon-eye"></i><span>HR/Payroll</span></a>
+                                        <ul class="hidden-ul" style="">
+                                            <!--<li><a href="/index.php/core/employeemaster/adminusers">Admin Users</a></li>-->
+                                            <li><a href="#" class="has-ul">Attendance</a>
+                                                <ul class="hidden-ul">
+                                                    <li><a href="#">Attendance</a></li>
+                                                    <!--<li><a href="#">Attendance Report</a></li>-->
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>--%>
+                                    <li>
+                                        <a href="attendance.aspx"><i class="icon-user"></i><span>Attendance</span></a>
+                                        <!--                                                <ul>
+                                                    <li><a href="/index.php/core/studentabsent/studentattendance">Attendance</a></li>
+                                                   </ul>-->
+                                    </li>
+                                    <li>
+                                        <a href="fees.aspx" <%--class="has-ul"--%>><i class="icon-cash3"></i><span>Fees</span></a>
+                                        <%-- <ul class="hidden-ul" style="">
+                                            <!--                                                    <li>
+                                                        <a href="#">Fees</a>
+                                                        <ul>-->
+                                            <li><a href="#">Fee Details</a></li>
+                                        </ul>--%>
+                                    </li>
+                                    <li>
+                                        <a href="transport.aspx"><i class="icon-truck"></i><span>Transport</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="events.aspx"><i class="icon-star-full2"></i><span>Events</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="resources.aspx"><i class="icon-file-text"></i><span>Resources</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrapper">
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <%-- <div class="navbar navbar-default navbar-sm navbar-fixed-bottom">
+                        <ul class="nav navbar-nav no-border visible-xs-block">
+                            <li>
+                                <a data-target="#navbar-second" data-toggle="collapse" class="text-center collapsed">
+                                    <i class="icon-circle-up2"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div id="navbar-second" class="navbar-collapse collapse">
+                            <div class="navbar-text">
+                                © 2017. ITIL Technologies India Ltd.
+                           
+                            </div>
+                        </div>
+                    </div>--%>
+                </div>
+            </div>
+        </div>
+        <!-- Core JS files -->
+        <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+        <script type="text/javascript" src="Scripts/app.js"></script>
+        <script type="text/javascript" src="Scripts/blockui.min.js"></script>
+        <div>
+        </div>
+    </form>
+</body>
+</html>
